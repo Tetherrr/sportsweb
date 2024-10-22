@@ -1,0 +1,419 @@
+ body {
+      margin: 0;
+      box-sizing: border-box;
+	    font-family: sans-serif;
+        display: fixed;
+		user-select: none;
+    }
+
+	/*=====================================================Start:About==================================================*/
+	/*Container style for about*/
+    .containerAbout {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)), url(fitness.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+  .containerAbout   h1 {
+      font-size: 10rem;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+   .containerAbout  h2 {
+      font-size: 2rem;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+   .containerAbout  p {
+      font-size: 1.5rem;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .containerAbout a {
+      padding: 15px 20px;
+      background: #52caee;
+      font-size: 1rem;
+      text-decoration: none;
+      color: #333333;
+      border-radius: .25rem;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.808)
+    }
+	
+	
+/* styles for text, img & card*/
+ .containerAbout img.about{
+	width: 200px;
+	height: 200px;
+	border-radius: 40px;
+	padding-top: 20px;
+	
+}
+ .containerAbout p.about{
+	color: white;
+	font-size: 22px;
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: ;
+	
+}
+
+ .containerAbout .card {
+  
+  padding: 21px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*=====================================================End:About==================================================*/
+
+
+
+/*=====================================================Start:Us==================================================*/
+/*Styles for us*/
+ .containerUs {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)), url(uss.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+ .containerUs   h1 {
+      font-size: 10rem;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+ .containerUs   h2 {
+      font-size: 2rem;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+  .containerUs  p {
+      font-size: 1.5rem;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+  .containerUs  a {
+      padding: 15px 20px;
+      background: #52caee;
+      font-size: 1rem;
+      text-decoration: none;
+      color: #333333;
+      border-radius: .25rem;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.808)
+    }
+	
+	
+/* styles for text, img & card*/
+.containerUs img.Us{
+	width: 200px;
+	height: 200px;
+	border-radius: 40px;
+	padding-top: 20px;
+	
+}
+.containerUs p.Us{
+	color: white;
+	font-size: 22px;
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: ;
+	
+}
+
+.containerUs .card {
+  
+  padding: 21px;
+  margin-top: 20px;
+  text-align: center;
+}
+.containerUs img.us{
+	border-radius: 40px;
+	padding-top: 20px;
+	
+}
+.containerUs p.us{
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+	
+}
+/*=====================================================End:Us==================================================*/
+
+/*=====================================================Start:webC==================================================*/
+.cardc {
+  opacity: 0.5;
+  Position: absolute;
+  left: 13px;
+  bottom: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  
+}
+.containerFit {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)), url(peace.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+/*Column1 Note: left side */
+.column1{
+	background-color: white;
+	opacity: 0.7;
+
+	position: relative;
+	top: 200px;
+	right: 320px;
+	border-radius: 15px;	
+	
+	width: 40%;
+	height: 100%;
+}
+.column1 p a{
+	margin-left: 10px;
+	text-decoration: none;
+	color:#DBA800;
+	opacity: 1px;
+}
+.column1 ol p{
+	text-align: justify;
+    text-justify: inter-word;
+	margin-right: 40px;
+	
+}
+
+/*Column1 Note: right side */
+.column2{
+	position: relative;
+	bottom: 300px;
+	left: 320px;
+	border-radius: 15px;
+	
+	text-align: justify;
+    text-justify: inter-word;
+	
+	width: 40%;
+	height: 80%;
+	
+}
+  .column2{
+	background-color: white;
+	opacity: 0.7;
+	margin-bottom: 20px;
+	
+	position: relative;
+	
+	right: 320px;
+	border-radius: 15px;
+	
+	
+	
+	width: 40%;
+	height: 100%;
+	
+}
+/* styles for text, img & card*/
+.column2 ol p{
+	text-align: justify;
+    text-justify: inter-word;
+	margin-right: 40px;
+}
+.column2 .card{
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+
+
+.column3{
+	position: relative;
+	bottom: 50px;
+	left: 320px;
+	border-radius: 15px;
+	
+	text-align: justify;
+    text-justify: inter-word;
+	
+	width: 40%;
+	height: 80%;
+	
+}
+#vid{
+	Position: relative;
+	bottom: 250px;
+	left: 400px;
+}
+
+.topnav {
+  overflow: hidden;
+  color: #e6e6e6;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/*=====================================================End:WebCs==================================================*/
+
+/*=====================================================Start:Quiz==================================================*/
+.cardcc {
+  opacity: 0.5;
+  Position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  
+}
+.quiz{
+	background-color: white;
+	opacity: 0.7;
+	
+	position: relative;
+	top: 100px;
+	right: 320px;
+	border-radius: 15px;
+	
+	width: 90%;
+	padding: 10px 0px 10px 30px;
+	height: 100%;
+	
+}
+.quiz p a{
+	margin-left: 10px;
+	text-decoration: none;
+	color:#DBA800;
+	opacity: 1px;
+}
+.quiz ol p{
+	text-align: justify;
+    text-justify: inter-word;
+	margin-right: 40px;
+	
+}
+.quiz1{
+	background-color: white;
+	opacity: 0.7;
+	
+	position: relative;
+	bottom: 350px;
+	left: 320px;
+	border-radius: 15px;
+
+	width: 90%;
+	padding: 10px 0px 10px 30px;
+	height: 100%;
+	
+}
+.quiz1 p a{
+	margin-left: 10px;
+	text-decoration: none;
+	color:#DBA800;
+	opacity: 1px;
+}
+.quiz1 ol p{
+	text-align: justify;
+    text-justify: inter-word;
+	margin-right: 40px;
+	
+}
+
+/*=====================================================End:Quiz==================================================*/
+
+
+
+
+/*desktop*/
+@media screen and (max-width: 1024px) {
+  .leftcolumn, .rightcolumn, div.top, .container {   
+	display: fixed;
+    width: 100%;
+    padding: 0;
+  }
+}
+/*tablet*/
+@media screen and (max-width: 481px) {
+  .topnav a, .top, .container {
+	display: fixed;
+    float: none;
+    width: 100%;
+	padding: 0;
+  }
+}
+/*mobile*/
+@media screen and (max-width: 480px) {
+  .topnav a, .top, .container {
+	display: fixed;
+    float: none;
+    width: 100%;
+	padding: 0;
+  }
